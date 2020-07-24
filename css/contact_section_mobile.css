@@ -1,0 +1,158 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 22, 2020, 9:08:11 PM
+    Author     : Le-Roy
+*/
+
+@media (min-width:320px) and (max-width:414px)
+{
+    article, nav, section, aside, footer
+    {
+        display: block;
+    }
+    *
+    {
+        padding: 0px;
+        margin: 0px;
+        color: #383d41;
+    }
+    /*-------------------------------Section section-----------------------------------*/
+    #section
+    {
+        width: 100%;
+    }
+    /*contact information header*/
+    article
+    {
+        margin-bottom: 30px;
+        width: 100%;
+        
+    }
+    #c_i_h
+    {
+        text-align: left;
+        font-size: 20px;
+        margin-bottom: 30px;
+        padding: 10px 0px;
+        padding-left: 5px;
+        width: 98%;
+    }
+    
+    #c_i_h hr
+    {
+        width: 110px;
+        text-align: center;
+        height: 5px;
+        background-color: brown;
+        border: none;
+        border-radius: 10px;
+    }
+    
+    /*contact information*/
+    #c_i
+    {
+        text-align: left;
+        padding-left: 5px;
+        width: 98%;
+    }
+    
+    #c_i li
+    {
+        list-style-type: none;
+        line-height: 2em;
+        font-size: 18px;
+        padding-left: 5px;
+    } 
+    
+    /*Working hours*/
+    #w_h
+    {
+        padding: 20px 0px;
+        padding-left: 5px;
+        width: 98%;
+        background-color: lightgray;
+    }
+    
+    #w_h_c
+    {
+         font-size: 18px;
+         padding: 10px 0px;
+         padding-left: 5px;
+         width: 98%;
+    }
+    
+    /*public holidays*/
+    #p_h
+    {
+        padding: 20px 0px;
+        padding-left: 5px;
+        width: 98%;
+        background-color: lightgray;
+    }
+    
+    #p_h_c
+    {
+        font-size: 18px;
+        padding: 10px 0px;
+        padding-left: 5px;
+        width: 98%;
+    }
+    
+    /*form div*/
+    #form_div
+    {
+        width: 90%;
+        margin: 0px auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #form_div div
+    {
+        margin: 5px 0px;
+        padding: 5px 0px;
+    }
+    
+    #form_div input[type="text"], input[type="email"]
+    {
+        width: 90%;
+        margin-left: 5%;
+        padding: 10px 0px;
+        border: none;
+        border-bottom: 1px solid gray;
+    }
+    
+    .field
+    {
+        border: 1px solid orange;
+    }
+    
+    #form_div label{
+        margin-left: 5%;
+    }
+    
+    #text_area
+    {
+        width: 90%;
+        margin-left: 5%;
+        border: none;
+        border-bottom: 1px solid gray;
+    }
+    
+    #form_div input[type="submit"]
+    {
+        width: 20%;
+        margin-left: 75%;
+        padding: 10px 0;
+        background-color: black;
+        color: white;
+        font-weight: bolder;
+        border: none;
+    }
+    
+    #map{
+        width: 98%;
+    }
+}
